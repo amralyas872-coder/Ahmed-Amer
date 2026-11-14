@@ -1,0 +1,2157 @@
+# MASTER GAME DESIGN & PRODUCTION BRIEF
+# JACK: THE FORGOTTEN SPACE EXPLORERS
+## A Complete NASA-Inspired Interactive Space Adventure
+
+---
+
+# 1. PROJECT OVERVIEW
+
+I want you to create a complete, polished, immersive 2D space adventure game titled **"Jack: The Forgotten Space Explorers."**
+
+This is a story-driven educational adventure inspired by real NASA space exploration missions and historical spacecraft. It follows an astronaut named Jack, who experiences a spacecraft emergency, becomes stranded on the Moon, meets forgotten historical space machines, discovers their stories, repairs his spacecraft with their help, and eventually travels to Mars to rescue three legendary Mars rovers.
+
+The game must combine:
+
+- An emotional cinematic story.
+- Exploration across the Moon and Mars.
+- Conversations with historical space machines.
+- Six fully playable mini-games.
+- Equipment collection and spacecraft repair.
+- A mission-day timeline.
+- A connected progression system.
+- Educational information about the real machines and their NASA missions.
+- A satisfying final return to Earth.
+
+**This must be one complete connected game, not six unrelated games.** Each mini-game must be integrated naturally into the story. The player must understand why each challenge exists, what it accomplishes, which machine requested it, and what reward is received after completing it.
+
+The game should feel like a small professional indie game with a carefully designed world, polished animations, responsive controls, meaningful sound effects, smooth transitions, and an emotional story.
+
+The story below is the foundation of the entire project. Preserve its order, main characters, events, discoveries, important conversations, and ending. Do not replace the story with a different narrative.
+
+---
+
+# 2. THE CENTRAL STORY CONCEPT
+
+Jack is an astronaut on a space expedition that was originally planned to last **90 days**.
+
+However, on **Day 23**, a critical spacecraft malfunction occurs. The spacecraft loses control, and Jack is forced to perform an emergency landing on the Moon.
+
+After the emergency landing, the spacecraft's computer calculates the consequences of the failure. Its rescue prediction is frightening: if Jack waits for an external rescue mission, he may remain stranded for approximately **10 years** before help can reach him.
+
+Jack refuses to accept that fate.
+
+While exploring the Moon, he discovers old space machines that have been left behind for decades. Instead of being silent, these machines can communicate with him through their remaining systems. They have personalities, memories, stories, and unfinished missions.
+
+They also have something Jack desperately needs: knowledge, spare components, scientific equipment, energy systems, communication technology, and tools that can help repair his spacecraft.
+
+Each machine gives Jack a mission. When he completes it, the machine rewards him with a valuable tool, component, or piece of information.
+
+Jack must return to his damaged spacecraft after important missions and install the components he collects. The spacecraft gradually becomes more functional.
+
+However, the journey becomes much larger than simply repairing a ship.
+
+Jack discovers that the Moon is not the only place where forgotten machines remain stranded. Other robotic explorers are waiting on Mars.
+
+After repairing his spacecraft sufficiently, Jack faces a difficult decision: return home immediately or risk everything to rescue the machines on Mars.
+
+He chooses to help them.
+
+Eventually, after completing the lunar and Martian missions, Jack successfully returns to Earth on **Day 123**.
+
+The ten-year rescue prediction therefore represents the expected waiting time if Jack does nothing and waits for outside help. His courage, discoveries, and completed missions allow him to repair the spacecraft and return much earlier.
+
+**Important timeline rule:** The planned mission duration is 90 days, the malfunction occurs on Day 23, and the player-controlled story ends with Jack returning on Day 123. The ten-year rescue estimate is a fictional emergency-system prediction, not the actual length of the game. The Moon-to-Mars travel time is also part of this fictional adventure timeline, not a real NASA flight schedule.
+
+---
+
+# 3. GAME GENRE, VISUAL STYLE, AND PRESENTATION
+
+## Game genre
+
+- 2D story-driven adventure.
+- Space exploration.
+- Educational science game.
+- Side-scrolling exploration.
+- Puzzle and memory challenges.
+- Arcade-style mini-games.
+- Equipment collection and repair mechanics.
+
+## Visual style
+
+Use a consistent, beautiful **2D pixel-art style** throughout the entire game.
+
+The art should feel like a carefully produced 16-bit adventure game, with modern lighting and visual effects.
+
+The game should be as genuinely 2D as possible:
+
+- Side-view environments.
+- Flat, layered backgrounds.
+- Clearly defined foreground and background.
+- Pixel-art characters and machines.
+- No realistic 3D perspective.
+- No unnecessary 3D models.
+- No cinematic camera angles that make the game look three-dimensional.
+- Smooth side-scrolling movement.
+- Pixel-art animations and atmospheric effects.
+
+Use a consistent pixel size, color palette, outlines, lighting, and character proportions.
+
+## Main environment palettes
+
+**Outer space:**
+- Deep navy blue.
+- Almost-black backgrounds.
+- Blue and white stars.
+- Distant planets.
+- Subtle glowing effects.
+
+**The Moon:**
+- Gray and silver ground.
+- Dark gray craters.
+- Rocky mountains.
+- Blue-black sky.
+- Earth visible in the distance.
+- Cold, mysterious lighting.
+
+**Mars:**
+- Rust red.
+- Dark orange.
+- Reddish brown.
+- Sandy yellow.
+- Dust storms.
+- Ancient valleys and rocky formations.
+
+## Camera
+
+Use a side-scrolling 2D camera for the exploration stages.
+
+The camera should follow Jack or the controlled rover smoothly. It should not reveal the entire map immediately. The player should feel that each area is being discovered gradually.
+
+## General atmosphere
+
+The beginning should feel frightening, lonely, and mysterious.
+
+The Moon chapters should slowly become more hopeful and friendly as Jack discovers the machines.
+
+The Mars chapters should feel like a challenging rescue mission.
+
+The ending should feel emotional, warm, and rewarding.
+
+---
+
+# 4. THE MAIN CHARACTER: JACK
+
+Jack is the main protagonist.
+
+He is a young adult astronaut wearing a recognizable white space suit, helmet, backpack, gloves, and boots.
+
+His appearance must remain consistent throughout the complete game.
+
+## Personality
+
+At the beginning:
+- Frightened.
+- Exhausted.
+- Worried.
+- Lonely.
+- Determined to survive.
+
+As the story progresses:
+- Curious.
+- Funny.
+- Brave.
+- Friendly.
+- Compassionate.
+- Responsible.
+
+By the end:
+- Confident.
+- Hopeful.
+- Experienced.
+- Deeply attached to his new machine companions.
+
+## Character animation requirements
+
+Create animations for:
+
+1. Idle.
+2. Walking left.
+3. Walking right.
+4. Running.
+5. Jumping.
+6. Landing.
+7. Looking surprised.
+8. Talking.
+9. Examining equipment.
+10. Collecting an item.
+11. Repairing a machine.
+12. Celebrating.
+13. Standing silently during emotional story moments.
+
+His walking and jumping animations must look appropriate for the Moon's low-gravity environment.
+
+Use small floating dust particles when he walks.
+
+Use slower, heavier-looking movement in a spacesuit rather than making him move like an ordinary cartoon character.
+
+---
+
+# 5. THE COMPLETE STORY
+
+## INTRO: THE ADVENTURE
+
+The game begins in the depths of a pitch-black night, surrounded by the endless silence of the cosmos.
+
+The camera slowly approaches Jack, who is sitting inside his spacecraft during a space expedition far from Earth.
+
+Outside the spacecraft, stars shine across the enormous darkness. The Earth is small and distant.
+
+The spacecraft is moving normally.
+
+The player sees the mission information:
+
+**MISSION DURATION: 90 DAYS**
+
+**CURRENT MISSION DAY: 23**
+
+Suddenly, disaster strikes.
+
+A critical spacecraft malfunction occurs. The engines begin shaking, the internal lights flicker, and the emergency alarm activates.
+
+Red warning lights flash across Jack's face.
+
+A powerful alarm fills the cabin.
+
+The spacecraft begins spinning out of control.
+
+Jack looks at the damaged screens. Several indicators turn red, the navigation system fails, and the spacecraft's control panel becomes unstable.
+
+Jack is terrified.
+
+He grips the controls with trembling hands, trying to regain control before the spacecraft becomes completely uncontrollable.
+
+The emergency computer displays a warning:
+
+**CRITICAL SYSTEM FAILURE**
+
+**ENGINE CONTROL: DAMAGED**
+
+**NAVIGATION: OFFLINE**
+
+**STABILITY: CRITICAL**
+
+The spacecraft's emergency system calculates a rescue scenario.
+
+A new warning appears:
+
+**EXTERNAL RESCUE ESTIMATE: APPROXIMATELY 10 YEARS**
+
+Jack realizes that waiting for rescue is not an acceptable option.
+
+Fortunately, his training helps him remain focused.
+
+He tries to activate the emergency controls.
+
+### MINI-GAME 1: EMERGENCY LANDING
+
+The player must take control of the emergency system.
+
+The spacecraft has four emergency controls:
+
+- Red: Stabilize spacecraft.
+- Blue: Restore power.
+- Green: Activate landing gear.
+- Yellow: Control landing thrusters.
+
+The player must memorize and repeat sequences of flashing buttons.
+
+After completing the final sequence, the spacecraft becomes stable enough for an emergency landing.
+
+Jack guides the spacecraft toward the Moon.
+
+The camera shows the lunar surface getting closer.
+
+The spacecraft shakes violently before finally touching down on the gray lunar ground.
+
+The emergency alarms stop.
+
+A moment of silence follows.
+
+Jack survives, but his spacecraft is badly damaged.
+
+The screen displays:
+
+**EMERGENCY LANDING SUCCESSFUL**
+
+**MISSION STATUS: STRANDED ON THE MOON**
+
+This concludes the introduction and opens Chapter 1.
+
+---
+
+# CHAPTER 1: A TOUR ON THE MOON
+
+After the emergency landing, Jack exits his damaged spacecraft.
+
+He is exhausted and terrified.
+
+He looks at the endless gray lunar landscape. There are craters, rocks, distant mountains, and the black sky above him.
+
+The Earth can be seen in the distance.
+
+He understands that he is completely alone.
+
+Jack walks slowly across the lunar surface until he finds a large rock.
+
+He sits against it, staring at the horizon.
+
+His breathing sounds through his helmet.
+
+He begins to believe that there is no way out.
+
+Suddenly, something moves beneath the lunar dust.
+
+A small cloud of gray powder rises into the air.
+
+The ground begins to shake slightly.
+
+A mysterious metallic shape emerges from beneath the dust.
+
+It is a large machine with gold-colored foil, metallic structures, and several supporting legs.
+
+Jack approaches it carefully.
+
+He examines the strange machine.
+
+Despite his fear, a little humor returns to his personality.
+
+He raises his boot and gives the machine a playful kick.
+
+Through his radio, he says:
+
+**JACK: "What's up, piece of crap?"**
+
+Jack expects silence.
+
+But suddenly, a small blue light appears on the machine's control panel.
+
+A gentle, sleepy voice comes through his helmet speakers.
+
+**MACHINE: "Hellooooooooo..."**
+
+Jack freezes.
+
+The machine continues:
+
+**MACHINE: "Can you move me away from here?"**
+
+Jack cannot believe what he is hearing.
+
+A forgotten space machine has just spoken to him.
+
+He moves closer.
+
+The machine asks for help and introduces the mystery that will drive the rest of the adventure.
+
+This machine is the Apollo Lunar Module, known as **Eagle**.
+
+The scene should end with Jack and Eagle beginning their first conversation.
+
+### Gameplay in this chapter
+
+The player controls Jack directly.
+
+The environment should be a small 2D lunar exploration area.
+
+The player can:
+
+- Walk left and right.
+- Jump over small rocks.
+- Examine objects.
+- Approach Eagle.
+- Press an interaction key to begin dialogue.
+
+Display a small interaction indicator when Jack approaches Eagle.
+
+---
+
+# CHAPTER 2: AN AMAZING CONVERSATION
+
+Jack stands next to the mysterious talking machine.
+
+He is still shocked.
+
+He asks:
+
+**JACK: "Who are you?"**
+
+The machine responds warmly:
+
+**EAGLE: "My name is the Apollo Lunar Module, though the humans who flew me called me Eagle."**
+
+Jack becomes curious.
+
+He asks Eagle about her purpose and history.
+
+Eagle begins explaining her role in the historic Apollo missions.
+
+She explains that she was designed to carry astronauts from lunar orbit down to the Moon's surface and then help return them to lunar orbit.
+
+She describes her unusual spider-like structure.
+
+She explains that she consisted of two main sections:
+
+**The Descent Stage:**
+
+The lower section had four landing legs and supported the landing on the lunar surface.
+
+**The Ascent Stage:**
+
+The upper section carried the astronauts back toward lunar orbit to reunite with the Command Module.
+
+Eagle explains her most famous achievement.
+
+She helped Neil Armstrong and Buzz Aldrin land on the Moon during the Apollo 11 mission in July 1969.
+
+She remembers the historic moment when humans first walked on the lunar surface.
+
+Jack listens carefully.
+
+Eagle's voice then becomes quieter.
+
+She explains the sad part of her story.
+
+After the astronauts completed their surface mission, the ascent stage departed, leaving the descent stage behind on the Moon.
+
+For decades, the remaining structure has stayed on the lunar surface.
+
+Eagle has been silent and alone.
+
+She remembers the astronauts, the sounds of their voices, and the time when humans visited her.
+
+Then she reveals something important.
+
+**EAGLE: "I have a big secret to tell you."**
+
+Jack looks at her.
+
+**EAGLE: "I am not the only one left behind."**
+
+She explains that many other machines have also been forgotten.
+
+Some remain on the Moon.
+
+Others are on the distant red planet, Mars.
+
+There are lunar rovers, scientific experiments, robotic landers, and Mars explorers.
+
+They are still waiting in the darkness.
+
+Jack begins to understand that his situation might not be hopeless.
+
+He has discovered a new purpose.
+
+Instead of simply waiting for rescue, he can search for the machines and help them.
+
+Eagle asks Jack to move her away from her current position and help investigate the other forgotten machines.
+
+She also explains that some nearby supplies and equipment may help him repair his damaged spacecraft.
+
+This begins the first major mission after the emergency landing.
+
+## EAGLE'S MISSION
+
+Eagle gives Jack a task:
+
+He must collect emergency supplies scattered across the nearby lunar terrain.
+
+These supplies include oxygen canisters, power cells, and mechanical parts.
+
+Eagle explains that the supplies can support Jack's survival and provide components for an early spacecraft repair.
+
+### MINI-GAME 2: COLLECT THE SUPPLIES
+
+The player must collect the required supplies.
+
+The game should take place in a 2D side-scrolling lunar environment.
+
+Jack moves across the ground and collects useful objects.
+
+**Collectible objects:**
+
+1. Oxygen tanks.
+2. Battery cells.
+3. Mechanical repair parts.
+
+**Dangerous objects:**
+
+1. Falling meteor fragments.
+2. Unstable rocks.
+3. Dangerous debris.
+4. Damaged electrical objects.
+
+### Controls
+
+- Left Arrow: Move left.
+- Right Arrow: Move right.
+- Up Arrow or Space: Jump.
+- Touch controls for mobile devices.
+
+### Objectives
+
+The mission requires:
+
+- 3 oxygen tanks.
+- 3 energy cells.
+- 4 repair parts.
+
+The exact required quantities should be displayed in the HUD.
+
+### Gameplay features
+
+- The player has three health points.
+- Collecting supplies increases the inventory.
+- Dangerous objects reduce health.
+- A mission timer creates urgency.
+- Each collectible has a distinct color and animation.
+- The player receives a visual and sound effect after every successful collection.
+
+When all required supplies are collected, the mission is completed.
+
+### Reward from Eagle
+
+Eagle gives Jack a special component:
+
+**THE UNIVERSAL POWER COUPLER**
+
+This device can connect damaged power systems and help restore the spacecraft's electrical network.
+
+A reward animation should show Eagle opening a small storage compartment and presenting the component.
+
+Jack thanks Eagle.
+
+He returns to his damaged spacecraft and installs the Power Coupler.
+
+The spacecraft's power system becomes partially operational.
+
+The repair indicator updates.
+
+**POWER SYSTEM: PARTIALLY RESTORED**
+
+Jack now has a reason to continue exploring.
+
+---
+
+# CHAPTER 3: AN AMAZING EXPEDITION
+
+Jack and Eagle begin moving across the lunar surface.
+
+They travel over craters, rocks, and silver hills.
+
+Their objective is to locate the other forgotten machines.
+
+After traveling for some time, they notice a metallic reflection beneath the lunar dust.
+
+They approach it.
+
+A four-wheeled vehicle is partially buried in the ground.
+
+It has wire-mesh wheels, a compact body, and a distinctive design.
+
+Jack recognizes that it is another historic space machine.
+
+It is the **Lunar Roving Vehicle**, also called the **LRV** or **Moon Buggy**.
+
+The LRV slowly activates.
+
+Her systems begin blinking.
+
+She recognizes Eagle and greets the group.
+
+She introduces herself and explains her purpose.
+
+The LRV was designed to help astronauts travel across difficult lunar terrain.
+
+She explains that she was a four-wheeled battery-powered electric vehicle.
+
+Her job was to make lunar exploration easier by allowing astronauts to travel much farther from their landing sites than they could on foot.
+
+She proudly tells Jack about the Apollo 15, Apollo 16, and Apollo 17 missions.
+
+She remembers helping astronauts explore mountains, valleys, and craters while collecting lunar rocks and soil.
+
+Jack is fascinated.
+
+The LRV then explains that she knows the location of other forgotten lunar machines.
+
+However, the path toward them is dangerous.
+
+She offers to guide Jack and Eagle through the lunar terrain.
+
+But first, Jack must help restore her movement system.
+
+The LRV explains that several important lunar samples and mechanical components are scattered across the nearby region.
+
+She asks Jack to drive her across the lunar surface and collect them.
+
+## LRV'S MISSION
+
+Jack must use the Moon Buggy to cross the lunar terrain.
+
+He must collect three lunar samples and reach the destination.
+
+### MINI-GAME 3: MOON ROVER ADVENTURE
+
+This game must be a true 2D side-scrolling driving adventure.
+
+It should not use a top-down camera.
+
+The player drives the LRV horizontally across the lunar environment.
+
+The world should contain:
+
+- Gray lunar ground.
+- Small rocks.
+- Large rocks.
+- Deep craters.
+- Small slopes.
+- Distant mountains.
+- Stars.
+- Earth in the sky.
+- A destination marker.
+
+### Controls
+
+- Right Arrow: Accelerate.
+- Left Arrow: Brake or move backward.
+- Up Arrow: Jump over dangerous terrain.
+- P: Pause.
+- R: Restart.
+
+### Main objective
+
+Collect three lunar samples:
+
+1. Sample One.
+2. Sample Two.
+3. Sample Three.
+
+Then reach the destination beacon.
+
+### Obstacles
+
+**Rocks:**
+
+The rover must avoid large rocks that can damage its wheels.
+
+**Craters:**
+
+Deep craters can slow the rover or cause damage.
+
+**Uneven terrain:**
+
+Some areas require the player to jump or control speed carefully.
+
+### Health system
+
+The LRV has three health points.
+
+Collisions reduce health.
+
+A short invulnerability period should prevent repeated damage from one collision.
+
+If health reaches zero, the player loses the mission and can restart.
+
+### Visual details
+
+- Animated wheels.
+- Dust particles behind the rover.
+- Small suspension movement.
+- Glowing sample objects.
+- A counter showing 0/3, 1/3, 2/3, and 3/3.
+- A clear destination beacon.
+
+When the player collects all three samples and reaches the destination, the mission is complete.
+
+### Reward from the LRV
+
+The LRV gives Jack:
+
+**THE LUNAR TRACTION AND MOTOR MODULE**
+
+This component provides the spacecraft with a useful mechanical and navigation-related replacement assembly.
+
+The LRV also gives Jack a map showing the location of the hidden lunar machines.
+
+Jack returns to his spacecraft and installs the module.
+
+The spacecraft's mobility and navigation diagnostics improve.
+
+The LRV joins the mission as a guide.
+
+The group continues toward the hidden valley.
+
+---
+
+# CHAPTER 4: THE WHOLE TRUTH
+
+Jack, Eagle, and the LRV reach a vast ancient crater.
+
+The crater is covered in silver dust.
+
+The ground begins to move.
+
+A magical-looking sequence begins as several buried machines slowly emerge from beneath the dust.
+
+Small lights turn on one after another.
+
+The machines begin communicating with one another.
+
+Jack realizes that the Moon contains far more forgotten equipment than he imagined.
+
+The group approaches the first collection of machines.
+
+## MACHINE 1: ALSEP
+
+The Apollo Lunar Surface Experiments Package, known as **ALSEP**, is a collection of scientific instruments deployed on the Moon by Apollo astronauts.
+
+It explains that it was designed to perform long-term scientific experiments on the lunar surface.
+
+Its purpose was to study the Moon's environment and internal structure.
+
+It tells Jack about its instruments and scientific work.
+
+It proudly explains that, after astronauts returned to Earth, the experiments continued sending scientific data back for years.
+
+Jack learns that the machines were not simply abandoned objects. They were scientific explorers that continued working long after the astronauts had left.
+
+## MACHINE 2: THE SURVEYOR LANDER
+
+The group moves deeper into the crater.
+
+They discover a three-legged robotic lander.
+
+It is the **Surveyor Lander**.
+
+The Surveyor introduces herself and explains that she was part of the early robotic missions sent to study the Moon before the Apollo astronauts landed.
+
+Her purpose was to demonstrate that a spacecraft could safely perform a soft landing on the lunar surface.
+
+She describes her cameras and scientific tools.
+
+She explains how the Surveyor missions helped engineers understand the lunar surface and prepare for later human missions.
+
+Jack realizes that the Surveyor machines helped make the Apollo landings possible.
+
+## MACHINE 3: ALSEP SCIENTIFIC EQUIPMENT
+
+Nearby, Jack discovers a set of scientific instruments connected to the ALSEP system.
+
+They represent the individual instruments that carried out the scientific experiments.
+
+The instruments explain that they studied the Moon's natural activity.
+
+They describe several important scientific functions:
+
+- Seismometers measured vibrations and moonquakes.
+- Magnetometers investigated the Moon's magnetic environment.
+- Heat-flow instruments examined how heat moved beneath the lunar surface.
+- Other instruments studied particles and the surrounding lunar environment.
+
+They explain that their work helped scientists discover important information about the Moon's internal structure and natural activity.
+
+For the game, treat the ALSEP central station as the main equipment group and these scientific instruments as the individual devices connected to it. They are related, not two completely unrelated ALSEP missions.
+
+## MACHINE 4: APOLLO COMMUNICATION SYSTEM
+
+Finally, the group approaches a communications installation with an antenna pointed toward Earth.
+
+It represents the Apollo communication equipment that helped astronauts communicate with their spacecraft and Mission Control.
+
+A gentle crackle of radio static comes through.
+
+The machine introduces itself.
+
+It explains that communication systems were essential to the Apollo missions.
+
+They transmitted astronaut voices, spacecraft information, and images across space.
+
+It remembers how important it was to maintain the connection between astronauts and the teams on Earth.
+
+Jack realizes how important communication will be for his own return.
+
+The machine explains that it still contains valuable communication knowledge and components that may help repair Jack's spacecraft.
+
+---
+
+## THE FOURTH MINI-GAME: MATCH THE EQUIPMENT
+
+The group discovers that some instrument labels and connections have become mixed up.
+
+The machines ask Jack to identify which pieces of equipment belong together and match each instrument with its correct function.
+
+### MINI-GAME 4: MATCH THE EQUIPMENT
+
+This is a memory and knowledge puzzle.
+
+It must be visually different from the previous games.
+
+The screen should display a board of facedown pixel-art cards.
+
+When the player selects a card, it flips and reveals an object or description.
+
+The player must find the correct pairs.
+
+### Suggested matching pairs
+
+1. Seismometer ↔ Measures lunar vibrations and moonquakes.
+2. Magnetometer ↔ Studies magnetic fields.
+3. Heat-flow probe ↔ Measures heat moving beneath the surface.
+4. Camera ↔ Captures images of the lunar surface.
+5. Antenna ↔ Sends and receives communication signals.
+6. Solar panel ↔ Converts sunlight into electrical energy.
+7. Battery ↔ Stores electrical energy.
+8. Sample container ↔ Holds collected lunar material.
+
+The exact card order must be randomized each time the game starts.
+
+### Rules
+
+- The player selects two cards.
+- If they match, they remain visible.
+- If they do not match, they flip back after a short delay.
+- The player receives points for correct matches.
+- A move counter tracks the number of attempts.
+- A timer may be used for an optional challenge mode.
+- The board should have several difficulty levels.
+
+### Difficulty progression
+
+**Easy:** 4 pairs.
+
+**Normal:** 6 pairs.
+
+**Hard:** 8 pairs.
+
+The main story should use a manageable difficulty so that players can progress without frustration.
+
+### Reward from the lunar machines
+
+After Jack correctly matches the equipment, the machines reward him with:
+
+**THE DIAGNOSTIC SENSOR PACK**
+
+and
+
+**THE DEEP-SPACE COMMUNICATION RELAY**
+
+These are essential for restoring the spacecraft's diagnostic and communication systems.
+
+The ALSEP group, Surveyor Lander, scientific instruments, and communication equipment also offer spare wires, metal plates, power cells, and sensors.
+
+Jack returns to his damaged spacecraft with the collected components.
+
+---
+
+## REPAIRING THE SPACECRAFT
+
+Jack begins working on the spacecraft.
+
+Eagle guides him.
+
+The LRV provides mechanical information.
+
+ALSEP provides scientific diagnostic data.
+
+Surveyor contributes landing-system information.
+
+The scientific instruments help calibrate the spacecraft's sensors.
+
+The communication equipment restores part of the communication network.
+
+The scene should show a detailed repair sequence.
+
+The player sees a repair screen containing the main spacecraft systems.
+
+Each system has a status indicator.
+
+The player places the collected components into the correct slots.
+
+The repaired systems should be:
+
+1. Electrical power.
+2. Stabilization.
+3. Mechanical systems.
+4. Navigation.
+5. Communication.
+6. Propulsion support.
+
+After the final component is installed, the spacecraft's lights turn on.
+
+Its engines begin producing a steady hum.
+
+The machine group celebrates.
+
+The spacecraft has finally been repaired enough to fly again.
+
+**SPACECRAFT STATUS: FLIGHT CAPABLE**
+
+The player should receive a clear story milestone:
+
+**LUNAR REPAIR COMPLETE**
+
+---
+
+# CHAPTER 5: A HARD DECISION
+
+The spacecraft is finally working.
+
+Jack begins preparing for the journey home.
+
+For the first time since Day 23, returning to Earth seems possible.
+
+He imagines the warm sunlight, the blue sky, and the feeling of standing on familiar ground.
+
+However, the lunar machines gather around him.
+
+They begin talking about their distant friends on Mars.
+
+They explain that several robotic explorers are still waiting on the red planet.
+
+Those machines have been alone for years.
+
+Their systems may be damaged.
+
+Their solar panels may be covered in dust.
+
+They may have lost communication with Earth.
+
+Jack becomes quiet.
+
+He now faces two choices.
+
+**CHOICE ONE: RETURN HOME**
+
+He can leave the Moon and return to Earth.
+
+He will finally be safe.
+
+He will no longer have to face the dangers of space.
+
+**CHOICE TWO: CONTINUE THE EXPEDITION**
+
+He can travel toward Mars.
+
+He can search for the forgotten machines.
+
+He can attempt to rescue them.
+
+However, this decision will require more energy, more repairs, and more time.
+
+Jack remembers his arrival on the Moon.
+
+He remembers sitting alone beside the rock.
+
+He remembers believing that nobody would help him.
+
+He remembers Eagle waking up.
+
+He remembers the machines sharing their knowledge and spare components.
+
+They did not abandon him.
+
+They helped him when he had almost lost all hope.
+
+Jack realizes that he cannot leave their friends behind.
+
+He takes a deep breath.
+
+He chooses the second option.
+
+**JACK: "You helped me when I was lost. Now it is my turn to help your friends."**
+
+The machines respond with excitement.
+
+The spacecraft prepares for launch.
+
+The camera slowly moves away from the lunar surface.
+
+Jack and Eagle begin their journey toward Mars.
+
+---
+
+# CHAPTER 6: THE FINAL ACTION
+
+After a long journey through space, Jack and Eagle arrive at Mars.
+
+The spacecraft passes through the Martian atmosphere and lands safely.
+
+The screen changes from the dark blue-black environment of space to a beautiful red landscape.
+
+The player sees:
+
+- Red sand dunes.
+- Rust-colored rocks.
+- Ancient craters.
+- Rocky valleys.
+- Dusty hills.
+- A butterscotch-colored atmosphere.
+- A distant orange sky.
+
+The environment should feel completely different from the Moon.
+
+Jack exits the spacecraft.
+
+He notices that the Martian environment is cold and challenging.
+
+The rescue mission begins.
+
+Jack and his companions scan the landscape.
+
+They search for signals.
+
+They follow old wheel tracks and investigate unusual terrain.
+
+Eventually, they notice metallic objects near an ancient rocky flood plain.
+
+They have found the forgotten Mars machines.
+
+However, the discovery is heartbreaking.
+
+The rovers and landers are in terrible condition.
+
+Their solar panels are covered in thick red dust.
+
+Some wheels are damaged.
+
+Some cables are broken.
+
+Several machines have become completely silent.
+
+Jack refuses to give up.
+
+He and his companions begin repairing them.
+
+They clean the panels, reconnect damaged wires, and prepare the equipment for a restart.
+
+A sudden Martian wind begins blowing across the valley.
+
+It moves some of the dust away.
+
+The Sun breaks through the dusty atmosphere.
+
+Sunlight reaches the solar panels.
+
+Their batteries begin receiving energy again.
+
+One machine's indicator turns on.
+
+Then another.
+
+A small light appears on a rover.
+
+They are beginning to wake up.
+
+---
+
+## MINI-GAME 5: CLEAN THE SOLAR PANELS
+
+This mini-game represents one of the most important repair operations on Mars.
+
+The player must clean the dust-covered solar panels to restore power to the damaged machines.
+
+### Main objective
+
+Remove the thick red dust covering the solar panels.
+
+### Visual design
+
+The screen should show a large pixel-art solar panel.
+
+The panel contains several rectangular solar cells.
+
+Each cell is covered with red Martian dust.
+
+A small cleaning tool appears beside the panel.
+
+The player must move the tool across the dirty surface.
+
+### Controls
+
+- Mouse click and drag to clean.
+- Touch and drag on mobile.
+- Optional keyboard cleaning mode.
+
+### Gameplay mechanics
+
+The player moves the cleaning tool across the panel.
+
+Dust disappears gradually wherever the tool passes.
+
+The panel's energy meter increases as more surface area is cleaned.
+
+The player must clean a required percentage of the panel before the timer expires.
+
+### Objective
+
+Clean at least 90% of the solar panel.
+
+### Challenges
+
+- Dust may move back onto some areas.
+- Some solar cells require extra cleaning.
+- The player should avoid damaging the panel surface.
+- The timer adds urgency.
+
+### Feedback
+
+When a cell becomes clean, it should glow slightly.
+
+The energy meter should rise.
+
+Small electrical effects should appear.
+
+When the panel is sufficiently clean, an energy pulse activates the rover.
+
+### Reward
+
+The Mars machines reward Jack with:
+
+**THE HIGH-EFFICIENCY SOLAR CHARGING CONTROLLER**
+
+This component helps manage electrical energy and supports the final spacecraft power system.
+
+The machines begin waking up fully.
+
+Jack is now ready to explore the Martian landscape and find every lost friend.
+
+---
+
+## MEETING THE FIRST MARS EXPLORER: SOJOURNER
+
+Jack approaches the smallest rover.
+
+He gently removes the remaining dust from its solar panel.
+
+A cheerful high-pitched beep is heard.
+
+The rover's cameras turn on.
+
+It is **Sojourner**.
+
+Sojourner introduces herself.
+
+She explains that she arrived on Mars on July 4, 1997, as part of the historic Mars Pathfinder mission.
+
+She was the first successful Mars rover to explore the planet's surface.
+
+She explains that she was very small and lightweight, weighing approximately 10.6 kilograms.
+
+Her landing area was called Ares Vallis.
+
+She tells Jack that her main mission was to demonstrate whether a small wheeled robotic vehicle could successfully move around and investigate the surface of another planet.
+
+She remembers exploring rocks and soil.
+
+She remembers taking hundreds of pictures.
+
+She also explains that her mission helped scientists learn more about the ancient environmental history of Mars.
+
+Her voice becomes quieter as she remembers losing contact with Earth in September 1997.
+
+She had remained silent for many years.
+
+Now she is awake again.
+
+Jack welcomes her to the group.
+
+Sojourner is the first Martian explorer to join the mission.
+
+---
+
+# CHAPTER 7: THE FINAL DESTINATION
+
+Jack and his companions continue exploring the red planet.
+
+They now know that two more important rovers are somewhere nearby.
+
+They follow the signals across the Martian valley.
+
+The group reaches another rocky area.
+
+A large rover is resting beside an ancient hill.
+
+Its solar panels are dusty, and its wheels are partly buried.
+
+Jack approaches carefully.
+
+A warm mechanical sound begins.
+
+The rover's camera mast turns.
+
+It is **Spirit**.
+
+## MEETING SPIRIT
+
+Spirit introduces herself.
+
+She explains that she was one of NASA's Mars Exploration Rover twin missions.
+
+She landed in Gusev Crater on January 4, 2004.
+
+Her original mission was planned to last approximately 90 Martian days.
+
+However, she continued working for more than six years.
+
+Her main objective was to investigate Martian rocks and soil and search for evidence of past water.
+
+She proudly remembers exploring hills and rocky terrain.
+
+She traveled approximately 7.7 kilometers across Mars.
+
+Then she tells Jack about the difficult final part of her mission.
+
+In 2009, her wheels became trapped in soft Martian soil.
+
+NASA tried to free her.
+
+However, she could not escape.
+
+Her last confirmed communication with Earth was received on March 22, 2010.
+
+The group listens quietly.
+
+Jack realizes how long Spirit has been alone.
+
+He welcomes Spirit to the mission.
+
+---
+
+## MEETING OPPORTUNITY
+
+The group moves toward the edge of an ancient crater.
+
+Another rover is resting nearby.
+
+Its panels are dusty.
+
+Its body is covered in red soil.
+
+Its camera head is turned toward the sky.
+
+A soft chime sounds.
+
+The rover awakens.
+
+It is **Opportunity**, Spirit's twin sister.
+
+Opportunity introduces herself.
+
+She explains that she landed on Mars on January 25, 2004, in the Meridiani Planum region.
+
+Like Spirit, she was originally designed for a mission of approximately 90 Martian days.
+
+However, she far exceeded her expected lifetime.
+
+She continued exploring Mars for almost 15 years.
+
+She tells Jack that she traveled approximately 45 kilometers across the Martian surface.
+
+She investigated rocks, craters, and geological formations.
+
+She helped scientists find strong evidence that liquid water once affected the Martian environment.
+
+Then her voice becomes quieter.
+
+She remembers the enormous global dust storm of 2018.
+
+The storm blocked sunlight from reaching her solar panels.
+
+She lost communication with Earth.
+
+After many attempts to restore contact, NASA officially declared the mission complete on February 13, 2019.
+
+Jack looks at Opportunity and realizes that the group has finally found all three Martian friends.
+
+Sojourner, Spirit, and Opportunity are now awake again in the fictional story.
+
+---
+
+## MINI-GAME 6: MARS EXPLORER
+
+Before the final launch, Jack must complete one final exploration mission.
+
+The Martian machines explain that some important discoveries remain scattered across the region.
+
+Jack must explore the landscape, collect scientific discoveries, and locate the last damaged equipment signal.
+
+### Main objective
+
+Explore the Martian environment and find three important discoveries.
+
+**Discovery 1: An Ancient Martian Rock**
+
+A special rock with interesting geological features.
+
+The player must approach it and take a photograph.
+
+**Discovery 2: Evidence Related to Ancient Water**
+
+A geological formation resembling an ancient water-shaped channel or sedimentary feature.
+
+The player must examine and photograph it.
+
+**Discovery 3: The Abandoned Exploration Signal**
+
+A signal leading to a forgotten machine or piece of exploration equipment.
+
+The player must find the source and record it.
+
+### Gameplay
+
+This should be a 2D side-scrolling exploration game.
+
+The player controls a rover across the Martian environment.
+
+The world should contain:
+
+- Red sand.
+- Rocky valleys.
+- Small craters.
+- Large rocks.
+- Ancient geological formations.
+- Dust-covered machinery.
+- Distant mountains.
+- Martian sky effects.
+
+### Controls
+
+- Left Arrow: Move left.
+- Right Arrow: Move right.
+- Up Arrow: Jump or move over small obstacles, depending on the selected vehicle design.
+- Space: Scan or photograph a discovery.
+- P: Pause.
+- R: Restart.
+
+### Discovery system
+
+When the player approaches an important object, a scanning indicator appears.
+
+The player presses the interaction key to scan it.
+
+A short scanning animation plays.
+
+The discovery is added to the mission log.
+
+### HUD
+
+Display:
+
+- Discoveries: 0/3.
+- Rover health.
+- Energy level.
+- Current mission objective.
+- Scanning indicator.
+
+### Hazards
+
+- Large rocks.
+- Craters.
+- Uneven terrain.
+- Martian dust gusts.
+- Damaged ground sections.
+
+### Completion
+
+The mission is completed when all three discoveries have been recorded.
+
+A final signal appears on the map.
+
+Jack's companions identify the location of the last important equipment signal.
+
+The group gathers together.
+
+All the forgotten machines have now been found and reactivated in the fictional story.
+
+### Final reward
+
+The Martian explorers give Jack:
+
+**THE DEEP-SPACE NAVIGATION BEACON**
+
+This is the final component needed to complete the spacecraft's navigation and communication systems.
+
+Jack returns to his spacecraft and installs the component.
+
+The spacecraft's repair interface updates.
+
+All systems turn green.
+
+**POWER: ONLINE**
+
+**NAVIGATION: ONLINE**
+
+**COMMUNICATION: ONLINE**
+
+**STABILIZATION: ONLINE**
+
+**PROPULSION: READY**
+
+**MISSION STATUS: READY FOR EARTH RETURN**
+
+---
+
+# 6. THE FINAL ENDING
+
+With Opportunity safely repaired and reunited with the group, every forgotten machine has finally been discovered.
+
+Jack gathers all his companions.
+
+The machines share their memories.
+
+They remember their original missions, their work on the Moon and Mars, and the long silence that followed.
+
+Jack looks at them.
+
+He realizes that his journey has changed him completely.
+
+He was once a frightened astronaut who believed he would never return home.
+
+Now he is surrounded by friends who helped him survive.
+
+The repaired spacecraft prepares for departure.
+
+Jack and his companions begin the return journey toward Earth.
+
+Use a cinematic launch sequence.
+
+The camera slowly moves away from the Martian surface.
+
+The spacecraft rises above the red landscape.
+
+Mars becomes smaller in the distance.
+
+The screen changes to deep space.
+
+Show the Earth gradually becoming larger.
+
+The mission-day counter reaches:
+
+**DAY 123**
+
+The spacecraft enters Earth's atmosphere.
+
+A bright blue sky appears.
+
+The spacecraft lands safely.
+
+The music becomes warm and emotional.
+
+Jack steps out.
+
+The camera shows sunlight, green landscapes, and the welcoming atmosphere of Earth.
+
+He looks at the machines and smiles.
+
+He is no longer the frightened astronaut who sat alone on the Moon.
+
+He has become a brave explorer who understands courage, loyalty, friendship, and perseverance.
+
+The final message appears:
+
+**"NO EXPLORER SHOULD EVER BE FORGOTTEN."**
+
+Then:
+
+**"MISSION COMPLETE — DAY 123"**
+
+Show all the rescued machines together in a final group scene.
+
+The game ends with a beautiful cinematic image of Earth and the stars.
+
+---
+
+# 7. THE SIX MINI-GAMES: COMPLETE GAMEPLAY SUMMARY
+
+The six games must remain connected through the story.
+
+| No. | Mini-game | Main location | Main objective |
+|---|---|---|---|
+| 1 | Emergency Landing | Spacecraft / Moon | Restore emergency controls and land safely |
+| 2 | Collect the Supplies | Moon | Gather oxygen, batteries, and repair parts |
+| 3 | Moon Rover Adventure | Moon | Drive the LRV and collect three lunar samples |
+| 4 | Match the Equipment | Moon | Match scientific instruments with their functions |
+| 5 | Clean the Solar Panels | Mars | Remove dust and restore solar power |
+| 6 | Mars Explorer | Mars | Explore Mars and record three discoveries |
+
+## Important progression rule
+
+The player must not access all six games immediately.
+
+The games unlock in story order.
+
+Each mini-game must have:
+
+- A story introduction.
+- A clear objective.
+- A short explanation of the controls.
+- A playable challenge.
+- A win condition.
+- A loss condition when appropriate.
+- A reward or discovery.
+- A transition back to the story.
+
+After important missions, return the player to the damaged spacecraft hub so collected components can be installed.
+
+---
+
+# 8. THE SPACECRAFT HUB AND REPAIR SYSTEM
+
+The spacecraft is the main hub of the game.
+
+The player returns to it after collecting important components.
+
+The hub must visually change as the spacecraft becomes more functional.
+
+At the beginning, it is dark, damaged, and surrounded by warning lights.
+
+After the first reward, some lights turn on.
+
+After the lunar missions, the navigation and communication screens become functional.
+
+After the final Mars missions, all systems are restored.
+
+## Repair interface
+
+Create an interactive spacecraft diagram.
+
+Display six repair systems:
+
+1. Electrical Power.
+2. Stabilization.
+3. Mechanical Systems.
+4. Navigation.
+5. Communication.
+6. Propulsion Support.
+
+Each system should have a status:
+
+- Damaged.
+- Partially Restored.
+- Operational.
+
+The player should be able to select a component and install it into the appropriate repair slot.
+
+Do not make installation automatic without visual feedback.
+
+Show:
+
+- Component animation.
+- Connection effects.
+- Electrical sparks.
+- Diagnostic messages.
+- Progress updates.
+- A satisfying activation sound.
+
+## Inventory
+
+Create an inventory system containing:
+
+- Universal Power Coupler.
+- Lunar Traction and Motor Module.
+- Diagnostic Sensor Pack.
+- Deep-Space Communication Relay.
+- High-Efficiency Solar Charging Controller.
+- Deep-Space Navigation Beacon.
+- Collected energy cells.
+- Oxygen tanks.
+- Mechanical parts.
+- Lunar samples.
+- Martian discoveries.
+
+Each item must have an icon, name, description, and acquisition record.
+
+## Mission log
+
+The player should have access to a mission log.
+
+The log records:
+
+- Current mission day.
+- Completed chapters.
+- Discovered machines.
+- Completed mini-games.
+- Collected components.
+- Scientific discoveries.
+- Current spacecraft repair status.
+
+---
+
+# 9. CHARACTER AND MACHINE DESIGN
+
+Every machine should have its own identity, voice, and visual personality.
+
+Do not make all machines look identical.
+
+## Eagle
+
+Visual design:
+- Apollo Lunar Module-inspired structure.
+- Gold foil details.
+- Four landing legs.
+- Ascent-stage structure represented in historical illustrations.
+- Blue glowing control lights.
+
+Personality:
+- Calm.
+- Warm.
+- Wise.
+- Slightly nostalgic.
+- Protective toward Jack.
+
+Voice:
+Gentle and welcoming.
+
+## Lunar Roving Vehicle
+
+Visual design:
+- Four wire-mesh wheels.
+- Low rectangular vehicle body.
+- Seats.
+- Antenna.
+- Front camera system.
+
+Personality:
+- Friendly.
+- Energetic.
+- Adventurous.
+- Excited to explore.
+
+Voice:
+Cheerful and confident.
+
+## ALSEP
+
+Visual design:
+- Scientific equipment package.
+- Central station.
+- Antennas.
+- Cables.
+- Small scientific instruments.
+
+Personality:
+- Intelligent.
+- Analytical.
+- Patient.
+- Scientific.
+
+Voice:
+Calm and informative.
+
+## Surveyor Lander
+
+Visual design:
+- Three-legged robotic lander.
+- Camera system.
+- Metallic structure.
+- Lunar soil sample equipment where historically appropriate.
+
+Personality:
+- Brave.
+- Curious.
+- Proud of being an early lunar pioneer.
+
+Voice:
+Friendly and optimistic.
+
+## Apollo Communication System
+
+Visual design:
+- Communication antenna.
+- Radio equipment.
+- Small control panels.
+- Signal indicators.
+
+Personality:
+- Helpful.
+- Reliable.
+- Responsible.
+
+Voice:
+Clear, warm, and slightly electronic.
+
+## Sojourner
+
+Visual design:
+- Small rover.
+- Six wheels.
+- Compact body.
+- Small solar panel.
+- Camera mast.
+
+Personality:
+- Cheerful.
+- Curious.
+- Playful.
+- Small but courageous.
+
+Voice:
+High-pitched and friendly.
+
+## Spirit
+
+Visual design:
+- Mars Exploration Rover appearance.
+- Six wheels.
+- Solar panels.
+- Camera mast.
+- Robotic arm.
+
+Personality:
+- Determined.
+- Brave.
+- Thoughtful.
+- Resilient.
+
+Voice:
+Warm and steady.
+
+## Opportunity
+
+Visual design:
+- Similar basic rover family to Spirit.
+- Six wheels.
+- Solar panels.
+- Camera mast.
+- Robotic arm.
+
+Personality:
+- Optimistic.
+- Persistent.
+- Experienced.
+- Hopeful.
+
+Voice:
+Friendly and confident, with a nostalgic quality.
+
+---
+
+# 10. GAME INTERFACE AND USER EXPERIENCE
+
+The game should include the following screens.
+
+## A. Main menu
+
+Display:
+
+- Game title.
+- Animated space background.
+- Jack or spacecraft artwork.
+- Start Adventure.
+- Continue.
+- Settings.
+- Credits.
+
+## B. Story introduction
+
+Show short cinematic story sequences.
+
+Use character portraits, background animations, subtitles, and sound effects.
+
+The player should be able to continue dialogue using a keyboard or button.
+
+## C. Gameplay HUD
+
+Display only important information.
+
+Depending on the mission, show:
+
+- Health.
+- Timer.
+- Inventory.
+- Mission objective.
+- Progress counter.
+- Energy.
+- Mission day.
+- Pause button.
+
+The HUD should not cover too much of the actual gameplay area.
+
+## D. Dialogue system
+
+Every machine conversation should appear inside a professional dialogue box.
+
+Include:
+
+- Character name.
+- Character portrait.
+- Text.
+- Typing animation.
+- Continue indicator.
+- Optional voice playback support.
+
+Allow players to skip text animations without skipping essential story information.
+
+## E. Pause menu
+
+Include:
+
+- Resume.
+- Restart current mission.
+- Settings.
+- Return to main menu.
+
+## F. Victory screen
+
+Show:
+
+- Mission completed.
+- Reward earned.
+- Progress unlocked.
+- Continue story button.
+
+## G. Failure screen
+
+Show:
+
+- Mission failed.
+- Reason for failure.
+- Retry button.
+- Return to checkpoint.
+
+The player should never lose all campaign progress because of one failed mini-game.
+
+---
+
+# 11. SOUND DESIGN AND MUSIC
+
+Sound is extremely important.
+
+Use a consistent sound identity throughout the game.
+
+## Spacecraft intro
+
+- Deep-space ambient sound.
+- Low mechanical hum.
+- Warning siren.
+- Electrical failure sounds.
+- Engine instability.
+- Emergency alarms.
+
+## Moon
+
+- Quiet atmospheric background.
+- Soft radio static.
+- Low mechanical sounds.
+- Gentle electronic signals.
+- Footsteps on lunar dust.
+- Short machine activation sounds.
+
+## Mars
+
+- Wind.
+- Dust movement.
+- Mechanical rover noises.
+- Solar panel activation sounds.
+- Electronic communication signals.
+
+## Mini-games
+
+Every action should have appropriate feedback.
+
+Examples:
+
+- Collecting oxygen: short positive electronic sound.
+- Collecting batteries: electrical charging sound.
+- Collecting samples: discovery sound.
+- Matching equipment: successful match sound.
+- Wrong match: gentle error sound.
+- Cleaning a solar cell: small electrical sound.
+- Completing an objective: short victory sound.
+
+## Music progression
+
+The soundtrack should change according to the story:
+
+1. Mysterious and tense music during the malfunction.
+2. Lonely atmospheric music on the Moon.
+3. Curious and adventurous music during the exploration.
+4. Warm and friendly music during conversations.
+5. Suspenseful music during the decision and Mars journey.
+6. Hopeful and emotional music during the final return.
+
+Include sound and music settings with an ON/OFF option and volume controls.
+
+---
+
+# 12. ART ASSETS REQUIRED
+
+Create or use consistent 2D pixel-art assets.
+
+Do not mix realistic photographs with pixel-art sprites.
+
+All assets must share the same visual style.
+
+## Main character assets
+
+- Jack idle sprite.
+- Jack walking sprite.
+- Jack running sprite.
+- Jack jumping sprite.
+- Jack talking sprite.
+- Jack repairing sprite.
+- Jack collecting objects sprite.
+- Jack celebration sprite.
+
+## Spacecraft assets
+
+- Damaged spacecraft.
+- Functional spacecraft.
+- Spacecraft cockpit.
+- Emergency control panel.
+- Warning lights.
+- Repair interface.
+- Engines.
+- Launch animation.
+
+## Moon assets
+
+- Empty lunar background.
+- Flat 2D lunar surface.
+- Large lunar crater.
+- Small craters.
+- Lunar mountain silhouettes.
+- Moon rocks.
+- Earth in the sky.
+- Stars.
+- Lunar dust effects.
+- Lunar landing beacon.
+
+## Moon machine assets
+
+- Eagle Lunar Module.
+- Lunar Roving Vehicle.
+- ALSEP central station.
+- ALSEP scientific instruments.
+- Surveyor Lander.
+- Apollo communication antenna.
+
+## Collectible assets
+
+- Oxygen tank.
+- Battery cell.
+- Mechanical repair part.
+- Lunar sample.
+- Repair component.
+- Glowing energy object.
+
+## Mars assets
+
+- Red Martian landscape.
+- Flat 2D side-scrolling Mars background.
+- Red dunes.
+- Rocky valleys.
+- Ancient crater.
+- Mars dust effects.
+- Solar panel.
+- Dust-covered solar panel.
+- Cleaning tool.
+
+## Mars machine assets
+
+- Sojourner.
+- Spirit.
+- Opportunity.
+
+Each machine should have:
+- Idle animation.
+- Activation animation.
+- Communication animation.
+- Damaged appearance.
+- Restored appearance where applicable.
+
+---
+
+# 13. TECHNICAL DEVELOPMENT REQUIREMENTS
+
+Build the project using:
+
+- HTML5.
+- CSS3.
+- Vanilla JavaScript.
+
+Use Canvas for the main 2D gameplay when appropriate.
+
+The game must run directly in a modern browser.
+
+Avoid unnecessary external libraries.
+
+## Code organization
+
+Keep the project organized into clear files:
+
+- index.html
+- style.css
+- game.js
+- assets/
+- README.md
+
+Separate major systems into logical JavaScript modules or clearly organized classes.
+
+Recommended systems:
+
+- GameManager.
+- SceneManager.
+- PlayerController.
+- DialogueManager.
+- MissionManager.
+- InventoryManager.
+- RepairSystem.
+- SoundManager.
+- SaveSystem.
+- MiniGameManager.
+
+## Performance requirements
+
+- Use requestAnimationFrame for animation.
+- Use delta time for movement.
+- Avoid unnecessary repeated calculations.
+- Avoid memory leaks.
+- Avoid creating duplicate keyboard listeners.
+- Avoid overlapping timers.
+- Avoid duplicate animation loops.
+- Ensure all game states transition correctly.
+- Pause timers when the game is paused.
+- Reset each mini-game correctly after restarting.
+
+## Save system
+
+Use local browser storage to preserve:
+
+- Completed chapters.
+- Unlocked mini-games.
+- Inventory items.
+- Repair progress.
+- Discovered machines.
+- Current mission day.
+
+A player should be able to close the browser and continue later.
+
+## Responsive design
+
+Support:
+
+- Desktop.
+- Laptop.
+- Tablet.
+- Mobile screens.
+
+Provide touch controls for mobile devices.
+
+Make buttons large enough for comfortable interaction.
+
+---
+
+# 14. IMPORTANT STORY AND EDUCATIONAL ACCURACY RULES
+
+The game is a fictional adventure inspired by real NASA missions.
+
+The historical machines, missions, scientific functions, and important dates should be presented accurately.
+
+However, the following elements are fictional storytelling:
+
+- Machines speaking with human-like personalities.
+- Eagle waking up and asking Jack to move her.
+- Equipment emerging from beneath lunar dust in a magical sequence.
+- The spacecraft failure on Day 23.
+- The ten-year rescue prediction.
+- Jack repairing his spacecraft using parts from the machines.
+- The machines accompanying Jack on a rescue adventure.
+- The compressed Moon-to-Mars-to-Earth mission timeline.
+- The fictional 123-day return.
+
+Do not present these fictional events as actual historical NASA events.
+
+## Historical information to preserve
+
+**Apollo 11 Eagle:**
+
+Apollo 11 landed in the Sea of Tranquility in July 1969. Neil Armstrong and Buzz Aldrin used the Lunar Module to reach the lunar surface. The descent stage remained on the Moon, while the ascent stage carried the crew back to lunar orbit.
+
+**Lunar Roving Vehicle:**
+
+The Lunar Roving Vehicle was used during Apollo 15, Apollo 16, and Apollo 17. It was a four-wheeled electric vehicle powered by batteries and designed to extend astronauts' exploration range.
+
+**ALSEP:**
+
+ALSEP was a collection of scientific instruments deployed during Apollo 12, 14, 15, 16, and 17. These experiments studied several aspects of the lunar environment and transmitted data to Earth until September 30, 1977.
+
+**Surveyor:**
+
+Surveyor was a series of robotic lunar missions. Surveyor 1 achieved the first successful soft landing by an American spacecraft on the Moon in 1966. The program helped prepare for later Apollo landings.
+
+**Sojourner:**
+
+Sojourner arrived on Mars on July 4, 1997, as part of the Mars Pathfinder mission. It explored the Ares Vallis region and sent back hundreds of images. The Pathfinder mission returned more than 550 images from the rover and more than 15 chemical analyses of rocks and soil.
+
+**Spirit:**
+
+Spirit landed in Gusev Crater in January 2004. It traveled approximately 7.73 kilometers. Its last communication was received on March 22, 2010, and NASA officially ended recovery efforts in May 2011.
+
+**Opportunity:**
+
+Opportunity landed on Mars in January 2004. It traveled approximately 45 kilometers and investigated evidence of ancient water. A severe dust storm interrupted communication in June 2018. NASA declared its mission complete on February 13, 2019.
+
+The information above should be treated as the educational foundation of the game. The dialogue may be simplified to suit the story, but the historical facts should not be changed.
+
+---
+
+# 15. FINAL PRODUCTION EXPECTATIONS
+
+I do not want a simple prototype containing a few buttons and static backgrounds.
+
+I want a complete playable adventure with a clear beginning, middle, and ending.
+
+The quality should be similar to a polished indie 2D educational game.
+
+Please prioritize the following:
+
+1. **Story quality:** The player must feel emotionally connected to Jack and the forgotten machines.
+2. **Gameplay quality:** All six mini-games must be fully playable, functional, and distinct.
+3. **Visual quality:** Consistent pixel art, animation, lighting, and carefully designed environments.
+4. **Progression:** Every completed mission must unlock a meaningful new part of the story.
+5. **Rewards:** Every important machine interaction must provide a useful component, tool, clue, or new ability.
+6. **Educational value:** The player should learn the real history and scientific purpose of each machine.
+7. **Technical quality:** No broken buttons, unfinished levels, placeholder screens, nonfunctional controls, or missing game transitions.
+8. **Emotional ending:** The return to Earth on Day 123 must feel like the conclusion of a long and meaningful journey.
+
+## NON-NEGOTIABLE REQUIREMENTS
+
+- Preserve all seven story chapters in their given order.
+- Preserve Jack as the main character.
+- Preserve Eagle, the LRV, ALSEP, Surveyor, the Apollo Communication System, Sojourner, Spirit, and Opportunity.
+- Include exactly the six specified mini-games.
+- Do not replace one of the six mini-games with a different game.
+- Do not remove the decision in Chapter 5.
+- Do not remove the Mars rescue mission.
+- Do not change the final return to Earth on Day 123.
+- Keep the ten-year figure as the predicted time for an external rescue if Jack waits.
+- Make the six mini-games part of the main adventure rather than separate unrelated projects.
+- Maintain the 2D pixel-art presentation.
+- Keep the story dialogue and educational explanations accessible to a general audience.
+- Do not invent fake NASA historical achievements.
+- Clearly distinguish fictional story events from actual historical information.
+
+## FINAL DELIVERABLE
+
+Produce the complete project, not just a story outline or a visual mockup.
+
+The finished game must contain all chapters, all six playable mini-games, all required characters, the inventory and repair system, the mission log, the spacecraft hub, the dialogue system, the save system, and the final cinematic.
+
+The player must be able to start at Day 1, experience the malfunction on Day 23, explore the Moon, meet the forgotten machines, complete their missions, travel to Mars, rescue Sojourner, Spirit, and Opportunity, and finally return to Earth on Day 123.
+
+**The heart of this game is simple:**
+
+A forgotten astronaut finds forgotten machines. They help him survive, and he helps them be remembered.
+
+**FINAL MESSAGE: NO EXPLORER SHOULD EVER BE FORGOTTEN.**

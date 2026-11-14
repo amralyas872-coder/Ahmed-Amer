@@ -1,0 +1,6 @@
+{
+  "name": "Jack: The Forgotten Space Explorers",
+  "description": "A story-driven 2D pixel-art NASA space adventure across the Moon and Mars.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
